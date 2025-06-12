@@ -38,7 +38,7 @@
       }
       @font-face {
         font-family: "Agustina-Signature";
-        src: url(./Fonts/agustina_3/Agustina-Signature.otf);
+        src: url(./sources/agustina_3/Agustina-Signature.otf);
       }
       /* Loader */
       .loader {
@@ -53,7 +53,6 @@
         align-items: center;
         z-index: 1001;
         transition: opacity 0.5s;
-        font-family: "augustina-Signature", cursive;
       }
       .loader-content {
         text-align: center;
@@ -64,6 +63,7 @@
         margin-bottom: 2rem;
         opacity: 0;
         animation: nameReveal 2s forwards;
+        font-family: "agustina-Signature", cursive;
       }
       .loader-name::before,
       .loader-name::after {
@@ -73,7 +73,7 @@
       }
 
       .loader-name::after {
-        content: "/>";
+        content: " />";
       }
       .loader-line {
         width: 200px;
