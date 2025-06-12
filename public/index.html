@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maaz Nadeem - Portfolio</title>
+    <meta name="google-site-verification" content="_UJg8PAXoGxO0RXOMjixW9XVZkCCkf4ouo1DmjQ6S0k" />
+    <meta
+      name="description"
+      content="Maaz Nadeem - Frontend Developer & Software Engineering Student. Portfolio showcasing web development projects and technical skills."
+    />
+    <meta property="og:image" content="https://maaz-nadeem.vercel.app/og-image.jpg" />
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./sources/MN logo.png" type="image/png" />
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+
+</head>
+<body>
+     <!-- Loader -->
+    <div class="loader">
+      <div class="loader-content">
+        <div class="loader-name">Maaz Nadeem</div>
+        <div class="loader-line">
+          <div class="loader-progress"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle">
+      <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Particles -->
+    <div id="particles-js"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-content">
+        <a href="#home" class="logo-signature"> Maaz Nadeem </a>
+        <button class="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Home -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1 class="name">Maaz Nadeem</h1>
+        <p class="title">Frontend Developer & Software Engineering Student</p>
+        <p class="bio-text">
+          A passionate frontend developer specializing in creating immersive web
+          experiences. Currently pursuing Software Engineering while developing
+          cutting-edge solutions for real-world problems. Focused on writing
+          clean, efficient code and delivering exceptional user experiences.
+        </p>
+      </div>
+      <div class="section-animation">
+        <dotlottie-player
+          src="https://lottie.host/e6d1fb15-452e-47a4-8a3a-292ba73bed3d/ph0oEKSjlt.lottie"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay>
+        </dotlottie-player>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skill-container">
+        <div class="skill">
+          <h3>HTML5</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="95%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>CSS3</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="90%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>JavaScript</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="85%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>Bootstrap</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="88%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+      <h2 class="section-title">Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Bachelor of Science in Software Engineering</h3>
+          <p>Virtual University of Pakistan | March 2024 – Present</p>
+          <ul>
+            <li>
+              Relevant Coursework: Software Development, Web Technologies,
+              Database Management Systems
+            </li>
+          </ul>
+        </div>
+        <div class="timeline-item" data-certificate="true">
+          <h3>JavaScript Essentials 1</h3>
+          <p>Cisco Networking Academy | Completed 2025</p>
+          <ul>
+            <li>Credential: Certificate issued</li>
+            <li>Covered JavaScript programming fundamentals</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div class="certificate-modal">
+      <span class="close-modal">&times;</span>
+      <img
+        src="./sources/JS Certificate.png"
+        alt="JavaScript Certificate"
+        class="certificate-image"
+      />
+    </div>
+ <!-- Services -->
+    <section id="services">
+      <h2 class="section-title">What I Do</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <i class="fas fa-code service-icon"></i>
+          <h3>Frontend Development</h3>
+          <p>
+            ⚡ Develop highly interactive Front end / User Interfaces for your
+            web and mobile applications
+          </p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-mobile-alt service-icon"></i>
+          <h3>Mobile Development</h3>
+          <p>⚡ Create cross-platform mobile applications using React Native</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-palette service-icon"></i>
+          <h3>UI/UX Design</h3>
+          <p>⚡ Design modern user interfaces with Figma and Adobe XD</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Projects -->
+    <section id="projects" class="scroll-reveal">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-icon">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <h3>E-Commerce Website</h3>
+          <p>
+            A fully responsive e-commerce platform with modern UI/UX design and
+            seamless shopping experience
+          </p>
+          <a
+            href="https://imaaznadeem.github.io/Ecommerce_website_project.github.io/"
+            target="_blank"
+            class="project-link"
+          >
+            Live Demo <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+        <div class="project-card">
+          <div class="project-icon">
+            <i class="fas fa-blog"></i>
+          </div>
+          <h3>Personal Blog</h3>
+          <p>
+            A modern blog platform with content management system and responsive design
+          </p>
+          <a
+            href="#"
+            target="_blank"
+            class="project-link"
+          >
+            View Project <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+        <div class="project-card">
+          <div class="project-icon">
+            <i class="fas fa-tasks"></i>
+          </div>
+          <h3>Task Manager</h3>
+          <p>
+            A productivity app with drag-and-drop interface and cloud synchronization
+          </p>
+          <a
+            href="#"
+            target="_blank"
+            class="project-link"
+          >
+            View Project <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact -->
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-container">
+        <div class="contact-card">
+          <p>
+            <i class="fas fa-phone"></i>
+            <a href="tel:+923082038083">0308 2038083</a>
+          </p>
+          <p>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:maaznadeem.mm@gmail.com">maaznadeem.mm@gmail.com</a>
+          </p>
+          <p>
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/imaaznadeem" target="_blank"
+              >github.com/imaaznadeem</a
+            >
+          </p>
+          <p>
+            <i class="fa-brands fa-linkedin"></i>
+            <a href="#" target="_blank">linkedin.com/in/maaznadeem</a>
+          </p>
+          <p>
+            <i class="fa-brands fa-instagram"></i>
+            <a href="https://www.instagram.com/imaaznadeem/" target="_blank">
+              imaaznadeem</a
+            >
+          </p>
+          <a href="path/to/your-cv.pdf" class="cv-viewer" download>
+            <i class="fas fa-download"></i> Download CV
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    <button id="scrollToTopBtn" title="Go to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p>© 2025 Maaz Nadeem. All rights reserved</p>
+        <div class="social-links">
+          <a href="https://github.com/imaaznadeem" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.instagram.com/imaaznadeem/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:maaznadeem.mm@gmail.com" target="_blank"
+                ><i class="fa-regular fa-envelope"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div>
+      </div>
+    </footer>
+<script src="./scripts.js"></script>
+</body>
+</html>
